@@ -1,6 +1,15 @@
 var arrayTasks = {
 
 	concat: function (arr1, arr2) {
+		var concatArray = [];
+
+		for (var item of arr1) {
+			concatArray.push(item);
+		}
+		for (var item of arr2) {
+			concatArray.push(item);
+		}
+		return concatArray;
 
 	},
 
