@@ -29,9 +29,15 @@ var arrayTasks = {
 		return squaredArray;
 	},
 
-	// sum: function (arr) {
-		
-	// },
+	sum: function (arr) {
+		var sum = 0
+		arr.forEach(function(item) {
+			sum += item
+		})
+		return sum;
+	
+	},
+
 
 	// findDuplicates: function (arr) {
 		
