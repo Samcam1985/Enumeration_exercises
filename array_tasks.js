@@ -58,9 +58,17 @@ var arrayTasks = {
 			
 	},
 
-	// removeAndClone: function (arr, valueToRemove) {
-		
-	// },
+	removeAndClone: function (arr, valueToRemove) {
+			var newArray = arr.filter(function(value) {
+				return value != valueToRemove
+				
+			})
+
+			
+			return newArray
+	
+},
+
 
 	// findIndexesOf: function (arr, itemToFind) {
 		
