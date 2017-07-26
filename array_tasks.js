@@ -81,10 +81,16 @@ var arrayTasks = {
 		return indexArray;
 	},
 
-	// sumOfAllEvenNumbersSquared: function (arr) {
+	sumOfAllEvenNumbersSquared: function (arr) {
+		var evenNumbersArray = arr.filter(function(value){
+			return value % 2 === 0;
+		})
+			var squareEvenNumbers = this.square(evenNumbersArray);
+			var result = this.sum(squareEvenNumbers);
+			return result;
 		
-	// }
-
+	},
+		
 }
 
 module.exports = arrayTasks
